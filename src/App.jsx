@@ -3,7 +3,6 @@ import  { useState } from 'react'
 export function App() {
   const [numero, setNumero] = useState(100)
   const [mostrarEsconder, setMostrarEsconder] = useState(false)
-]
   
   function handleAcrescentar() {
     setNumero(numero + 100)
